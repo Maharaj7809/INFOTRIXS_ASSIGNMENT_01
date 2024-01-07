@@ -242,8 +242,8 @@ console.log(quote);
 
 function App() {
 
-  const [quote, setQuote] = useState("");
-  const [author, setAuthor] = useState("");
+  const [quote, setQuote] = useState("An ounce of patience is worth more than a tonne of preaching");
+  const [author, setAuthor] = useState("Mahatama Ghandhi");
   // http://api.quotable.io/random
 
   useEffect(() => {
