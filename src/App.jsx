@@ -163,7 +163,7 @@ console.log(quote);
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static"  color="secondary" >
         <Toolbar>
           <IconButton
             size="large"
@@ -269,8 +269,9 @@ function App() {
   }
   return (
    <div className='container'>
-    <div className="App">
       <SearchAppBar/>
+    <div className="App">
+     
          <div className="quote">
             <h2>{quote}</h2>
             <small>-{author}-</small>
